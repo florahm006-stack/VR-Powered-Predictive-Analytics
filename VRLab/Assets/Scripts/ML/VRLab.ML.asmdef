@@ -1,0 +1,10 @@
+{
+    "name": "VRLab.ML",
+    "rootNamespace": "VRLab.ML",
+    "references": [ "VRLab.Data", "Unity.InferenceEngine" ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "autoReferenced": true,
+    "noEngineReferences": false
+}

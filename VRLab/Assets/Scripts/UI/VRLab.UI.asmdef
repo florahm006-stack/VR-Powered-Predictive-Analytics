@@ -1,0 +1,16 @@
+{
+    "name": "VRLab.UI",
+    "rootNamespace": "VRLab.UI",
+    "references": [
+        "Unity.TextMeshPro",
+        "UnityEngine.UI",
+        "VRLab.Core",
+        "VRLab.Scenarios",
+        "VRLab.ML"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "autoReferenced": true,
+    "noEngineReferences": false
+}

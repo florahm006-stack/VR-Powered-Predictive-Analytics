@@ -1,0 +1,30 @@
+# Unity
+VRLab/[Ll]ibrary/
+VRLab/[Tt]emp/
+VRLab/[Oo]bj/
+VRLab/[Bb]uild/
+VRLab/[Bb]uilds/
+VRLab/[Ll]ogs/
+VRLab/[Uu]serSettings/
+VRLab/[Mm]emoryCaptures/
+VRLab/[Rr]ecordings/
+VRLab/Assets/AssetStoreTools*
+VRLab/*.csproj
+VRLab/*.sln
+VRLab/.vs/
+VRLab/.idea/
+VRLab/crashlytics-build.properties
+
+# Python
+ml-service/.venv/
+ml-service/__pycache__/
+ml-service/models/*.joblib
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+.tmp/
+unity-create.log

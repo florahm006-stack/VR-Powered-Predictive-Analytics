@@ -1,0 +1,14 @@
+﻿<Solution>
+  <Project Path="Assembly-CSharp-Editor.csproj" />
+  <Project Path="VRLab.ML.csproj" />
+  <Project Path="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj" />
+  <Project Path="VRLab.Data.csproj" />
+  <Project Path="VRLab.Interaction.csproj" />
+  <Project Path="VRLab.UI.csproj" />
+  <Project Path="VRLab.Tests.EditMode.csproj" />
+  <Project Path="VRLab.Core.csproj" />
+  <Project Path="VRLab.Scenarios.csproj" />
+  <Project Path="VRLab.Charts.csproj" />
+  <Project Path="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj" />
+  <Project Path="VRLab.Assessment.csproj" />
+</Solution>

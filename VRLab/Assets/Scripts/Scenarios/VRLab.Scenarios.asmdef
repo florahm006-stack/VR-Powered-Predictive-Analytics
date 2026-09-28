@@ -1,0 +1,16 @@
+{
+    "name": "VRLab.Scenarios",
+    "rootNamespace": "VRLab.Scenarios",
+    "references": [
+        "Unity.TextMeshPro",
+        "VRLab.Charts",
+        "VRLab.Data",
+        "VRLab.ML",
+        "VRLab.Interaction"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "autoReferenced": true,
+    "noEngineReferences": false
+}

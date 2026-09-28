@@ -1,0 +1,460 @@
+VBCSCompilerPreWarmer: watching VBCSCompiler (PID 37588)
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 24948)
+VBCSCompiler prewarm took 25.90 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/staging' branch; Version is '6000.6.3f1 (45d8eee7de74) revision 4577518'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-khet3" at "2026-09-27T13:08:43.0372242Z"
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 16190 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-09-27T13:08:43Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 24636, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              c7c2f0c23077419ba0ae85f9e335a002
+  Correlation Id:          7cc6d8b31e462110b8f858017984b8e4
+  External correlation Id: 6943635099747275021
+  Machine Id:              kneJ2TiEx4aAIkr7zBxvyaQeccs=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-khet3" (connect: 0.00s, validation: 0.00s, handshake: 0.08s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-khet3-notifications" at "2026-09-27T13:08:43.123183Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 11270717080740-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.11s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Unity.exe
+-batchmode
+-projectPath
+D:\2026\Florah\VR-powered predictive analytics\VRLab
+-executeMethod
+VRLab.EditorTools.RunTestsCli.RunEditMode
+-quit
+-logFile
+D:\2026\Florah\VR-powered predictive analytics\unity-tests.log
+Successfully changed project path to: D:\2026\Florah\VR-powered predictive analytics\VRLab
+D:/2026/Florah/VR-powered predictive analytics/VRLab
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Logging is directed to a specific file, skipping project log.
+Player connection [27548]  Target information:
+
+Player connection [27548]  * "[IP] 172.31.80.1 [Port] 55504 [Flags] 2 [Guid] 3233443726 [EditorId] 3233443726 [Version] 1048832 [Id] WindowsEditor(7,KHET360-HO-01) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [27548]  * "[IP] 172.23.0.1 [Port] 55504 [Flags] 2 [Guid] 3233443726 [EditorId] 3233443726 [Version] 1048832 [Id] WindowsEditor(7,KHET360-HO-01) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [27548]  * "[IP] 192.168.7.101 [Port] 55504 [Flags] 2 [Guid] 3233443726 [EditorId] 3233443726 [Version] 1048832 [Id] WindowsEditor(7,KHET360-HO-01) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [27548] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [27548] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-9580" after 0.5 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: 6ad9f8c4f985ef941a822ec521755a12
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: false
+Launching Unity Data Store - C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Tools/Unity.DataStore.exe 
+Unity Data Store artifact dir = Library/DataStore, working dir = D:/2026/Florah/VR-powered predictive analytics/VRLabUnity Data Store running and initialised
+[Physics::Module] Selected backend (deferred post-plugins).
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.6.3f1 (45d8eee7de74)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/2026/Florah/VR-powered predictive analytics/VRLab/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.0]
+    Renderer:        AMD Radeon Pro WX3200 Graphics (ID=0x6981)
+    Vendor:          ATI
+    VRAM:            4075 MB
+    App VRAM Budget: 3464 MB
+    Driver:          31.0.21018.23005
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004436 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  2.086 seconds
+Domain Reload Profiling: 3883ms
+	BeginReloadAssembly (429ms)
+		CreateAndSetChildDomain (13ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (67ms)
+	initialDomainReloadingComplete (205ms)
+	LoadAllAssembliesAndSetupDomain (1078ms)
+		LoadAssemblies (409ms)
+		TypeCache.Refresh (736ms)
+			TypeCache.ScanAssembly (687ms)
+		AnalyzeDomain (3ms)
+	FinalizeReload (2089ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			BeforeProcessingInitializeOnLoad (340ms)
+			ProcessInitializeOnLoadAttributes (412ms)
+			ProcessInitializeOnLoadMethodAttributes (736ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 64 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ide.rider@3.0.38 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.nuget.newtonsoft-json@3.2.1 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.nuget.newtonsoft-json@74deb55db2a0)
+    com.unity.ai.inference@2.6.1 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.ai.inference@9a123aee5df7)
+    com.unity.xr.interaction.toolkit@3.6.1 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.xr.interaction.toolkit@530ce2e6c59e)
+    com.unity.xr.management@4.5.3 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.xr.management@574ebfb1e976)
+    com.unity.xr.openxr@1.18.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.xr.openxr@b5b77b4027be)
+    com.unity.inputsystem@1.20.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.xr.core-utils@2.6.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.xr.core-utils@a8b900321199)
+    com.unity.xr.legacyinputhelpers@3.0.1 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.xr.legacyinputhelpers@3f62d634f63b)
+    com.unity.dt.app-ui@2.1.11 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.dt.app-ui@cd5609b130ce)
+    com.unity.nuget.mono-cecil@1.11.6 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.searcher@4.9.5 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.searcher@a463122f2c00)
+    com.unity.profiling.core@1.0.3 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.profiling.core@8a49f7027d06)
+  Built-in packages:
+    com.unity.render-pipelines.universal@17.6.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.render-pipelines.universal@327d93d1cbc8)
+    com.unity.ugui@2.6.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.ugui@0727b404f3a0)
+    com.unity.modules.accessibility@1.0.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tetgen@1.0.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.modules.tetgen)
+    com.unity.modules.tilemap@1.0.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.timelinefoundation@1.0.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.modules.timelinefoundation)
+    com.unity.modules.ui@1.0.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.mathematics@1.4.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.mathematics@8306a64d0cd6)
+    com.unity.burst@2.0.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.burst@626e66ab421b)
+    com.unity.collections@6.6.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.collections@10fff0607388)
+    com.unity.render-pipelines.core@17.6.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.render-pipelines.core@02d75770e4b3)
+    com.unity.shadergraph@17.6.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.shadergraph@1dd0fd24b57e)
+    com.unity.render-pipelines.universal-config@17.6.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.render-pipelines.universal-config@561422b74439)
+    com.unity.test-framework@1.8.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.test-framework@80f691d4262b)
+    com.unity.ext.nunit@2.1.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.ext.nunit@0198eae3b53e)
+    com.unity.test-framework.performance@6.6.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.test-framework.performance@b6023decb532)
+    com.unity.graph-authoring@1.0.0 (location: D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.graph-authoring@cfd2588851ee)
+[Subsystems] Looking for new subsystems at path D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.xr.openxr@b5b77b4027be
+[Subsystems] Novel subsystem found at Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/UnitySubsystemsManifest.json
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/2026/Florah/VR-powered predictive analytics/VRLab/Assets
+[Subsystems] Discovering subsystems at path D:\2026\Florah\VR-powered predictive analytics\VRLab\Library\PackageCache\com.unity.xr.openxr@b5b77b4027be
+[Subsystems] No descriptors matched for  examples in Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/UnitySubsystemsManifest.json.
+[Subsystems] 1 'inputs' descriptors matched in Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/UnitySubsystemsManifest.json
+[Subsystems] 1 'displays' descriptors matched in Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/UnitySubsystemsManifest.json
+[Subsystems] No descriptors matched for  meshings in Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/UnitySubsystemsManifest.json.
+[Package Manager] Done registering packages in 0.11 seconds
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: D:/2026/Florah/VR-powered predictive analytics/VRLab
+DisplayProgressbar: Compiling Scripts
+ExitCode: 0 Duration: 1s381ms
+[1023/1342  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (1.26 seconds), 1 items updated, 1342 evaluated
+AssetDatabase: script compilation time: 3.515324s
+Begin MonoManager ReloadAssembly
+Total cache size 175234908
+Total cache size after purge 175234908, took 00:00:01.5965528
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 10.45 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Starting new worker id: 0 with log in D:/2026/Florah/VR-powered predictive analytics/VRLab/Logs/AssetImportWorkerHW0.log
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  4.743 seconds
+Domain Reload Profiling: 8897ms
+	BeginReloadAssembly (1464ms)
+		DisableScriptedObjects (277ms)
+		CreateAndSetChildDomain (227ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (72ms)
+	initialDomainReloadingComplete (190ms)
+	LoadAllAssembliesAndSetupDomain (2387ms)
+		LoadAssemblies (1369ms)
+		TypeCache.Refresh (709ms)
+			TypeCache.ScanAssembly (658ms)
+		AnalyzeDomain (297ms)
+			BuildScriptInfoCaches (267ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (4751ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (12ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			BeforeProcessingInitializeOnLoad (664ms)
+			ProcessInitializeOnLoadAttributes (868ms)
+			ProcessInitializeOnLoadMethodAttributes (2016ms)
+			AfterProcessingInitializeOnLoad (27ms)
+			EditorAssembliesLoaded (5ms)
+		AwakeInstancesAfterBackupRestoration (155ms)
+Importing 'GUID: 0000000000000000b000000000000000 - Path: ProjectSettings/EditorBuildSettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 0000000000000000b000000000000000' -> (Import Result ID: '15d718424306e2023b0d415b1b95ef4e') in 0.043 seconds [static dependencies only]. Details - ImportResultOutputID=0a89a5c5f492143e0fa186859e17ba6f DependenciesID=f2633d13ed1ad5782261c55fea32a475 StaticDependenciesID=eea2d9a79bb91c9047b6fae91e625668 
+Refreshing native plugins compatible for Editor in 35.00 ms, found 7 plugins.
+
+Asset Pipeline Refresh (id=61c819bd983e8ca49b0045834c6c6a5a): Total: 16.644 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=8 ms, native=6762 ms
+		Asset DB Callback time: managed=1558 ms, native=168 ms
+		Scripting: domain reloads=1, domain reload time=4411 ms, compile time=3528 ms, other=206 ms
+		Project Asset Count: scripts=1524, non-scripts=3986
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 126.178ms
+	ApplyChangesToAssetFolders: 2.303ms
+	Scan: 380.216ms
+	Collect global state as custom dependencies: 62.218ms
+	CategorizeScriptCompilationAssets: 92.481ms
+	ProcessAssetsWithTransientArtifactChanges: 236.104ms
+	CategorizeAssets: 571.631ms
+	CompileScripts: 3527.536ms
+	ImportOutOfDateAssets: 4865.892ms (4801.975ms without children)
+		ImportManagerImport: 48.800ms (4.514ms without children)
+			UpdateCategorizedAssets: 0.103ms
+		ReloadNativeAssets: 0.129ms
+		UnloadImportedAssets: 9.426ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 4.302ms
+		ImportSchedulerStart: 1.213ms
+	PostProcessAllAssets: 1565.674ms
+		XRBuildSystem.XRAssetImported 4.981ms
+		WindowTitlePostprocess 0.073ms
+		MonoPostProcessAllAssets: 1558.701ms
+			AssetPostprocessor.OnPostprocessAllAssets 1060.447ms
+			AssetCallbacks.OnPostprocessAllAssets 126.931ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 91.614ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 80.259ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 39.676ms
+			SyncVS.PostprocessSyncProject 29.366ms
+			AssetChangedListener.OnPostprocessAllAssets 11.148ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 9.814ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 8.970ms
+			MaterialPostprocessor.OnPostprocessAllAssets 8.087ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 7.659ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 7.460ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 3.453ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 3.078ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 2.854ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 2.734ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 2.537ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 2.299ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 2.143ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 2.027ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 1.910ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 1.402ms
+			PostProcessor.OnPostprocessAllAssets 1.239ms
+			ModelAssetProcessor.OnPostprocessAllAssets 1.203ms
+			AssetEvents.OnPostprocessAllAssets 1.163ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 1.076ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 1.051ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.920ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.810ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.500ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.476ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.445ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.343ms
+	PostAssetChangesProfiler: 47.638ms
+	UnloadStreamsBegin: 7.696ms
+	PersistCurrentRevisions: 1.348ms
+	GenerateScriptTypeHashes: 55.484ms
+	GenerateScriptTypeSerializationHashes: 94.600ms
+	Untracked: 5089.043ms
+
+Application.AssetDatabase Initial Refresh End
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Scanning for USB devices : 12.731ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-VRLab
+Unloading 183 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6569 unused Assets / (27.5 MB). Loaded Objects now: 7375.
+Memory consumption went from 457.4 MB to 429.9 MB.
+Total: 42.160200 ms (FindLiveObjects: 1.863800 ms CreateObjectMapping: 1.388600 ms MarkObjects: 24.206700 ms  DeleteObjects: 14.001600 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (Unknown). Loaded Objects now: 7382.
+Memory consumption went from 437.5 MB to 437.5 MB.
+Total: 23.559000 ms (FindLiveObjects: 1.498500 ms CreateObjectMapping: 0.848100 ms MarkObjects: 20.549100 ms  DeleteObjects: 0.028500 ms)
+
+Executing IPrebuildSetup for: Unity.PerformanceTesting.Editor.TestRunBuilder.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEditor.TestTools.TestRunner.TestRun.Tasks.BuildActionTaskBase`1/<ExecuteMethods>d__8<UnityEngine.TestTools.IPrebuildSetup>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEditor.TestRunner/TestRun/Tasks/BuildActionTaskBase.cs:48)
+UnityEditor.TestTools.TestRunner.TestRun.Tasks.BuildActionTaskBase`1/<Execute>d__7<UnityEngine.TestTools.IPrebuildSetup>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEditor.TestRunner/TestRun/Tasks/BuildActionTaskBase.cs:34)
+UnityEditor.TestTools.TestRunner.TestRun.TestJobRunner:ExecuteStep () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEditor.TestRunner/TestRun/TestJobRunner.cs:194)
+UnityEditor.TestTools.TestRunner.TestRun.TestJobRunner:RunJob (UnityEditor.TestTools.TestRunner.TestRun.TestJobData) (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEditor.TestRunner/TestRun/TestJobRunner.cs:100)
+UnityEditor.TestTools.TestRunner.Api.TestRunnerApi/<>c:<.ctor>b__21_0 (UnityEditor.TestTools.TestRunner.Api.ExecutionSettings) (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEditor.TestRunner/Api/TestRunnerApi.cs:54)
+UnityEditor.TestTools.TestRunner.Api.TestRunnerApi:Execute (UnityEditor.TestTools.TestRunner.Api.ExecutionSettings) (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEditor.TestRunner/Api/TestRunnerApi.cs:85)
+VRLab.EditorTools.RunTestsCli:Run (UnityEditor.TestTools.TestRunner.Api.TestMode,bool) (at Assets/Editor/RunTestsCli.cs:25)
+VRLab.EditorTools.RunTestsCli:RunEditMode () (at Assets/Editor/RunTestsCli.cs:15)
+
+(Filename: ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEditor.TestRunner/TestRun/Tasks/BuildActionTaskBase.cs Line: 48)
+
+Saving results to: C:/Users/khet3/AppData/LocalLow/DefaultCompany/VRLab\TestResults.xml
+Executing IPostBuildCleanup for: Unity.PerformanceTesting.Editor.TestRunBuilder.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEditor.TestTools.TestRunner.TestRun.Tasks.BuildActionTaskBase`1/<ExecuteMethods>d__8<UnityEngine.TestTools.IPostBuildCleanup>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEditor.TestRunner/TestRun/Tasks/BuildActionTaskBase.cs:48)
+UnityEditor.TestTools.TestRunner.TestRun.Tasks.BuildActionTaskBase`1/<Execute>d__7<UnityEngine.TestTools.IPostBuildCleanup>:MoveNext () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEditor.TestRunner/TestRun/Tasks/BuildActionTaskBase.cs:34)
+UnityEditor.TestTools.TestRunner.TestRun.TestJobRunner:ExecuteStep () (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEditor.TestRunner/TestRun/TestJobRunner.cs:194)
+UnityEditor.TestTools.TestRunner.TestRun.TestJobRunner:RunJob (UnityEditor.TestTools.TestRunner.TestRun.TestJobData) (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEditor.TestRunner/TestRun/TestJobRunner.cs:100)
+UnityEditor.TestTools.TestRunner.Api.TestRunnerApi/<>c:<.ctor>b__21_0 (UnityEditor.TestTools.TestRunner.Api.ExecutionSettings) (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEditor.TestRunner/Api/TestRunnerApi.cs:54)
+UnityEditor.TestTools.TestRunner.Api.TestRunnerApi:Execute (UnityEditor.TestTools.TestRunner.Api.ExecutionSettings) (at ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEditor.TestRunner/Api/TestRunnerApi.cs:85)
+VRLab.EditorTools.RunTestsCli:Run (UnityEditor.TestTools.TestRunner.Api.TestMode,bool) (at Assets/Editor/RunTestsCli.cs:25)
+VRLab.EditorTools.RunTestsCli:RunEditMode () (at Assets/Editor/RunTestsCli.cs:15)
+
+(Filename: ./Library/PackageCache/com.unity.test-framework@80f691d4262b/UnityEditor.TestRunner/TestRun/Tasks/BuildActionTaskBase.cs Line: 48)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (Unknown). Loaded Objects now: 7384.
+Memory consumption went from 441.4 MB to 441.4 MB.
+Total: 21.616900 ms (FindLiveObjects: 1.030500 ms CreateObjectMapping: 0.413800 ms MarkObjects: 19.511600 ms  DeleteObjects: 0.052700 ms)
+
+DisplayProgressbar: Undo
+[RunTestsCli] RESULT passed=11 failed=0 skipped=0::
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+VRLab.EditorTools.RunTestsCli:Finish () (at Assets/Editor/RunTestsCli.cs:53)
+VRLab.EditorTools.RunTestsCli:Run (UnityEditor.TestTools.TestRunner.Api.TestMode,bool) (at Assets/Editor/RunTestsCli.cs:34)
+VRLab.EditorTools.RunTestsCli:RunEditMode () (at Assets/Editor/RunTestsCli.cs:15)
+
+(Filename: Assets/Editor/RunTestsCli.cs Line: 53)
+
+MonoPathRemapper: Attempts to remap: 14409; Successful remaps: 242
+Serialized file version minimum: 23, current 23
+Worker ready: AssetImportWorkerHW0 0
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-khet3-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-khet3 channel disconnected successfully.
+Lingering sessions upon destruction of worker manager
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+Shut down UDS service system complete
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+VBCSCompilerPreWarmer: requested VBCSCompiler shutdown
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1790514564543,"processId":9580,"allocatedMemory":19595654,"memoryLabels":[{"Default":208500},{"Permanent":15516},{"NewDelete":70679},{"Thread":4205640},{"Manager":34557},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":850632},{"Material":68},{"GfxDevice":58008},{"Animation":952},{"Audio":696},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":16704},{"Input":42840},{"JobScheduler":256},{"TextLib":336},{"Mono":48},{"MonoCode":64},{"ScriptingNativeRuntime":1307568},{"BaseObject":49360},{"Resource":1252},{"Renderer":2376},{"Transform":4685},{"File":4416},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":457256},{"StaticString":3808},{"Utility":2673718},{"Curl":2478},{"PoolAlloc":2840},{"AI":80},{"TypeTree":17165},{"ScriptManager":12656},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":7584},{"WebRequest":13685},{"VR":49794},{"SceneManager":608},{"Video":64},{"LazyScriptCache":32},{"Camera":729},{"Secure":2377},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":192},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":768},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"Gui":128},{"EditorUtility":120288},{"VersionControl":8},{"Undo":931},{"AssetDatabase":8872126},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":40441},{"Upm":1912},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":260},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3600},{"Windowing":456},{"Licensing":12757},{"AssetReference":32},{"IPCStream":32}]}
+~StackAllocator(ALLOC_TEMP_MAIN) m_LastAlloc not NULL. Did you forget to call FreeAllStackAllocations()? To get more information, run app with -diag-temp-memory-leak-validation cmd line argument

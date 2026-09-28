@@ -1,0 +1,10 @@
+{
+    "name": "VRLab.Assessment",
+    "rootNamespace": "VRLab.Assessment",
+    "references": [ "Unity.TextMeshPro" ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "autoReferenced": true,
+    "noEngineReferences": false
+}

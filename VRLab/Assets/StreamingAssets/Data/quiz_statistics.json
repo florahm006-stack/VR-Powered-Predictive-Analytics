@@ -1,0 +1,49 @@
+{
+  "questions": [
+    {
+      "Question": "A stock's closing price is trending upward with rising volume. What does this usually suggest?",
+      "Options": [
+        "Strong buying interest supporting the trend",
+        "The price will crash immediately",
+        "Volume has no relationship to price",
+        "The market is closed"
+      ],
+      "CorrectIndex": 0
+    },
+    {
+      "Question": "In linear regression, what does the slope represent?",
+      "Options": [
+        "The starting point of the data",
+        "The change in the dependent variable per unit change in the independent variable",
+        "The error in the model",
+        "The number of data points"
+      ],
+      "CorrectIndex": 1
+    },
+    {
+      "Question": "If demand RISES when price DECREASES, the price coefficient in the model is likely:",
+      "Options": ["Positive", "Zero", "Negative", "Undefined"],
+      "CorrectIndex": 2
+    },
+    {
+      "Question": "Why do we visualize model predictions next to actual data?",
+      "Options": [
+        "It looks impressive in VR",
+        "To judge how well the model fits reality and spot errors",
+        "To increase the chart size",
+        "It is required by Unity"
+      ],
+      "CorrectIndex": 1
+    },
+    {
+      "Question": "What does the 'forecast horizon' of a time-series model mean?",
+      "Options": [
+        "How far back the data goes",
+        "How many future steps the model predicts",
+        "The width of the chart",
+        "The training time in seconds"
+      ],
+      "CorrectIndex": 1
+    }
+  ]
+}
